@@ -91,4 +91,3 @@ if can_lift:
     st.success("Predicted torque is sufficient to lift the selected load under the model assumptions.")
 else:
     st.warning("Predicted torque is insufficient to lift the selected load under the model assumptions.")
-st.info("This is an equation-driven schematic, not a validated physics simulation. Input torque, RPM and efficiency are assumed constant; tooth geometry is stylized. Maximum load is not a safe working-load rating.")
